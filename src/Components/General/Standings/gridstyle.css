@@ -1,0 +1,46 @@
+.css-19jonn5 {
+    background-color: rgb(19, 47, 76);
+}
+
+.MuiDataGrid-cellContent {
+    color: #b2bac2;
+}
+
+.MuiDataGrid-cell {
+    justify-content: center !important;
+}
+
+.MuiDataGrid-columnHeaderTitleContainerContent >span {
+    margin-left: 0 !important;
+}
+
+.MuiTablePagination-displayedRows  {
+    color: #b2bac2;
+}
+
+.MuiButtonBase-root {
+    color: #b2bac2 !important;
+}
+
+.MuiDataGrid-cell, .MuiDataGrid-row {
+    max-height: 40px !important;
+    min-height: 40px !important;
+    border-bottom: 1px solid #5090d3 !important;
+}
+
+.MuiDataGrid-virtualScrollerContent {
+    height: 210px !important;
+}
+
+.MuiDataGrid-root {
+    border: 1px solid #5090d3 !important;
+}
+
+
+.MuiDataGrid-columnHeaders{
+    border-bottom: 2px solid #5090d3 !important;
+}
+
+.css-17jjc08-MuiDataGrid-footerContainer {
+    border-top: 2px solid #5090d3 !important;
+}

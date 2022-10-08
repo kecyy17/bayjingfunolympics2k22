@@ -1,0 +1,36 @@
+.delete-content {
+    z-index: 7000;
+}
+
+.delete-box {
+    padding: 3rem 3rem 1rem 3rem;
+    border: 1px solid gray;
+    background-color: #132f4c;
+    text-align: start;
+    border-radius: .3rem;
+}
+
+.delete-box >h3 {
+    font-size: 16px;
+    padding: 0rem 1rem;
+    color: #ebedf0;
+}
+
+.delete-box >p {
+    font-size: 12px;
+    padding: 0rem 1rem;
+    color: rgb(178, 186, 194);
+}
+
+.delete-box >:last-child {
+    padding-top: 2rem;
+}
+
+.delete-button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.delete-button >:first-child {
+    margin-right: 1rem;
+}

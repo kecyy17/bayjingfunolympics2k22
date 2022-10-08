@@ -1,0 +1,26 @@
+
+.user-main-container {
+    padding: 2rem 2rem 0 2rem;
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+}
+.user-upper-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    grid-row: 1/2;
+}
+
+
+.user-lower-section {
+    grid-row: 2/3;
+    border-radius: 10px;
+    width: 100%;
+    height: fit-content;
+    background-color: #132f4c;
+    border: 2px solid #5090d3;
+    box-shadow: 5px 5px 12px 0px rgba(102, 149, 168, 0.18);
+    -webkit-box-shadow: 5px 5px 12px 0px rgba(102, 149, 168, 0.18);
+    -moz-box-shadow: 5px 5px 12px 0px rgba(102, 149, 168, 0.18);
+    margin-top: 5rem;
+}

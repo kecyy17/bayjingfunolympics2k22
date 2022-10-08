@@ -1,0 +1,41 @@
+.event-mini-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+    border: 1px solid #5090d3;
+    margin: 0 .8rem;
+    border-radius: .3rem;
+    background-color: rgb(19, 47, 76);
+}
+
+
+.event-mini-wrapper >:last-child {
+    color: #b2bac2;
+    font-size: 12px;
+}
+
+.event-mini-items {
+    padding: .5rem;
+    border: 1px solid #5090d3;
+    margin-bottom: .5rem;
+    border-radius: .4rem;
+}
+
+.event-mini-items >p {
+    color: #b2bac2;
+    font-size: 14px;
+}
+
+.event-date {
+    font-size: 11px !important;
+    font-weight: bold;
+    padding: .3rem;
+}
+
+.event-see-more {
+    color: #b2bac2;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
+}

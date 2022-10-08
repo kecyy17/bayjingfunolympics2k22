@@ -1,0 +1,151 @@
+.game-score {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-items: center;
+    padding-right: 6rem;
+}
+.remove-padding {
+    padding: 0 !important;
+}
+
+.game-score-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: .2rem;
+    margin-left: .2rem;
+}
+.game-score-left {
+    display: flex;
+    flex-direction: row;
+    margin-right: .2rem;
+    justify-content: space-between;
+}
+
+.game-score-right > h3 {
+    align-self: center;
+    padding-left: 1rem;
+}
+
+.game-score-left > h3 {
+    align-self: center;
+    padding-right: 1rem;
+}
+
+.game-score-lpoint {
+    padding: 1rem;
+    background-color: black;
+    color: white;
+}
+
+.change-pass {
+    width: 400px !important;
+}
+
+.game-country-wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.game-country-wrap >img {
+    width: 48px;
+    padding: 0 .6rem;
+}
+
+.game-score-upload-form >p {
+    font-size: .8rem;
+    text-align: start;
+    padding: .5rem .5rem !important;
+}
+.game-score-upload-form >h3 {
+    text-align: start;
+    padding: .5rem .5rem !important;
+}
+.game-score-select-event {
+    display: flex;
+    padding: .5rem;
+}
+
+.game-score-board {
+    width: 450px !important;
+    margin-bottom: 1rem;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+.game-result-wrapper {
+    display: grid;
+    grid-template-columns: 15rem 1fr 1fr 15rem;
+}
+
+.game-score-wrapper {
+    grid-column: 2/3;
+}
+
+.game-fixture-wrapper {
+    grid-column: 3/4;
+}
+
+.game-landing-score-wrapper {
+    display: flex;
+    padding: 2rem;
+
+}
+
+.game-landing-score-board {
+    width: 100% !important;
+    min-width: 550px;
+}
+
+.game-land-score-section {
+    padding: 2.5rem 15rem;
+}
+
+
+.brief-game {
+    text-align: start;
+    padding-left: 1rem;
+}
+
+.game-score-wrapperFlex {
+    display: flex;
+    flex-direction: column;
+}
+
+.fixture-game >:first-child {
+    /* text-align: start; */
+    /* padding-left: 1.9rem; */
+    color: #b2bac2;
+}
+
+
+@media (max-width: 1550px) {
+    .game-land-score-section {
+        padding: 2rem 7rem;
+    }
+    
+}
+
+@media (max-width: 1380px) {
+    .game-land-score-section {
+        padding: 2rem 5rem;
+    }
+}
+
+
+@media (max-width: 1080px) {
+    .game-land-score-section {
+        padding: 2rem 2rem;
+    }
+}
+
+/* mobile view */
+
+@media (max-width: 855px) {
+    .game-land-score-section {
+        padding: 2rem 2rem;
+    }
+}

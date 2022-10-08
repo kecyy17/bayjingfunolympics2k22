@@ -1,0 +1,31 @@
+/* .summary-item{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} */
+
+.summary-item{
+    text-align: center;
+    padding-left: .2rem;
+}
+
+.summery-item-title{
+    font-size: 14px;
+    color: gray;
+}
+
+.summary-item-result{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.summary-positive{
+    color: green;
+}
+
+.summary-negative{
+    color: red;
+}

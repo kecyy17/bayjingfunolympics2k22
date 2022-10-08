@@ -1,0 +1,67 @@
+.custom-button {
+    width: 10rem;
+    height: 3rem;
+    color: aliceblue;
+    border: 2px solid white;
+    background-color: rgb(19, 47, 76);
+    border-radius: .3rem;
+    font-weight: 700;
+    font-size: 1rem;
+    box-shadow: 4px 7px 20px -4px rgba(0,0,0,0.26);
+    -webkit-box-shadow: 4px 7px 20px -4px rgba(0,0,0,0.26);
+    -moz-box-shadow: 4px 7px 20px -4px rgba(0,0,0,0.26);
+    
+}
+
+.custom-button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: rgb(19, 47, 76);
+}
+
+
+/* FUn Light Button */
+.custom-modified-button {
+    padding: .5rem 2rem;
+    cursor: pointer;
+    border: 2px solid #1e4976;
+    border-radius: .3rem;
+    background-color: rgb(148, 177, 207);
+    font-weight: 600;
+}
+.custom-modified-button:hover {
+    background-color: #132f4c;
+    color: #ffffff;
+    font-weight: 600;
+    transition: all 0.3s ease-in 0s;
+}
+
+.negative-button {
+    background-color: rgb(233, 119, 119) !important;
+    border: 2px solid #c77575;
+    color: white;
+    text-align: center;
+}
+
+.negative-button:hover {
+    background-color: rgb(228, 163, 163) !important;
+    border: 2px solid #c77575;
+    color: white;
+}
+
+.small-button {
+    width: 5rem;
+    height: 2rem;
+    font-size: 12px;
+    padding: 0rem;
+}
+
+@media (max-width: 1380px) {
+    .custom-button {
+        width: 7rem;
+        height: 2.5rem;
+        font-size: .9rem;
+    }
+}
+
+

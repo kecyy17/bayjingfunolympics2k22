@@ -1,0 +1,84 @@
+
+.custom-drop-down {
+    width: 12rem;
+    padding: 1rem;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    background-color: rgb(10, 25, 41);
+    border: 1px solid rgb(19, 47, 76);
+    box-shadow: 5px 5px 12px 0px rgba(102, 149, 168, 0.18);
+    -webkit-box-shadow: 5px 5px 12px 0px rgba(102, 149, 168, 0.18);
+    -moz-box-shadow: 5px 5px 12px 0px rgba(102, 149, 168, 0.18);
+}
+
+.profile-items>:first-child {
+    color: white;
+}
+
+.profile-items >:last-child {
+    color: rgb(178, 186, 194) !important
+}
+
+.message-drop-down {
+    width: 18rem !important;
+    height: 18rem !important;
+    overflow-y: auto;
+    
+}
+.message-drop-down >h1 {
+    font-size: 14px;
+    padding: .2rem;
+    color: white;
+}
+
+.message-items {
+    padding: .5rem;
+    margin-bottom: .5rem;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    color: rgb(71, 64, 64) !important;
+    border: 1px solid #e9e5e5;
+    box-shadow: 5px 5px 12px 0px rgba(102, 149, 168, 0.18);
+    -webkit-box-shadow: 5px 5px 12px 0px rgba(102, 149, 168, 0.18);
+    -moz-box-shadow: 5px 5px 12px 0px rgba(102, 149, 168, 0.18);
+}
+.messageDropDown {
+    /* overflow-y: auto; */
+}
+.message-items > h3 {
+    font-size: 14px;
+    padding: .2rem;
+}
+.message-items >p {
+    font-size: 13px;
+    padding: .2rem;
+    color: rgb(71, 64, 64) !important;
+}
+
+
+.drop-down-items >:last-child {
+    border-top: 2px solid #f1dddd;
+    padding-top: .5rem;
+    margin-top: .4rem;
+}   
+
+.profile-items {
+    display: flex;
+    padding: .3rem .2rem;
+    color: rgb(90, 70, 70);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.profile-items >:first-child {
+    margin-right: .5rem;
+}
+
+.profile-items >:last-child {
+    text-decoration: none;
+    padding-top: .2rem;
+    color: rgb(90, 70, 70);
+}

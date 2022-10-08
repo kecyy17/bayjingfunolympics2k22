@@ -1,0 +1,37 @@
+.admin-highlight-videos {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 1rem;
+    
+}
+.admin-all-highlights {
+    padding: 0 2rem;
+}
+
+.admin-men-highlights >p, .admin-womon-highlights>p {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 1rem 1rem 1rem 0;
+    text-align: start;
+}
+
+.admin-highlight-container { 
+    margin-top: 2rem;
+}
+
+
+.vid-event-para {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.highlight-search {
+    padding: 0rem 5rem;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.highlight-search >:first-child {
+    width: 50%;
+}

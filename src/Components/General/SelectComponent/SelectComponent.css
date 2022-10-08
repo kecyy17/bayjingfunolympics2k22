@@ -1,0 +1,26 @@
+.upload-select-container {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+.upload-select-container >:first-child {
+    padding-bottom: .3rem;
+    color: #494545;
+    font-weight: 600;
+    color: #e7ebf0 !important;
+}
+
+.upload-category {
+    margin-left: 2rem;
+}
+.upload-select {
+    padding: .4rem 5rem .4rem 0;
+    text-align: start;
+    border-radius: .3rem;
+    outline: none;
+    border: 2px solid gray;
+    font-size: 14px;
+    font-weight: 600;
+    color: #b2bac2 !important;
+    background-color: #0a1929;
+}

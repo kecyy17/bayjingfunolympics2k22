@@ -1,0 +1,14 @@
+.home-container {
+    height: 100%;
+    display: grid;
+    grid-template-rows:  .25fr 8fr;
+    position: relative;
+    /* grid-auto-rows: minmax(100px, auto);    */
+}
+.home-nav {
+    height: 5.8rem;
+    grid-row: 1/2;
+}
+.home-body {
+    grid-row: 2/3;
+}

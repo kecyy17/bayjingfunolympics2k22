@@ -1,0 +1,91 @@
+.admin-dashboard-container {
+    padding: 2rem 2rem 0 2rem;
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+}
+
+.admin-upper-components {
+    display: flex;
+    grid-gap: 2rem;
+    grid-row: 1/2;
+}
+
+.admin-lower-graphs {
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: #132f4c;
+    border-radius: .2rem;
+}
+
+.admin-total-users {
+    grid-column: 1/2;
+    width: 30vw;
+    border-radius: 10px;
+    height: 450px;
+    background: linear-gradient(rgba(255, 255, 255, 0.09), rgba(255, 255, 255, 0.09));
+    background-color: #121212;
+    border: 1px solid #302e2e;
+    box-shadow: 5px 5px 12px 0px rgba(102, 149, 168, 0.18);
+    -webkit-box-shadow: 5px 5px 12px 0px rgba(102, 149, 168, 0.18);
+    -moz-box-shadow: 5px 5px 12px 0px rgba(102, 149, 168, 0.18);
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    min-width: 280px;
+}
+
+.admin-total-watch {
+    grid-column: 2/3;
+    border-radius: 10px;
+    width: 50vw;
+    justify-self: end;
+    height: fit-content;
+    background-color: ghostwhite;
+    border: 1px solid #e9e5e5;
+    box-shadow: 5px 5px 12px 0px rgba(102, 149, 168, 0.18);
+    -webkit-box-shadow: 5px 5px 12px 0px rgba(102, 149, 168, 0.18);
+    -moz-box-shadow: 5px 5px 12px 0px rgba(102, 149, 168, 0.18);
+    margin-left: 1rem;
+}
+
+.admin-total-watch >:first-child {
+    padding: 1rem;
+    color: gray;
+    
+}
+.admin-user-upper {
+    grid-row: 1/2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.admin-user-upper >:first-child {
+    padding-top: 1rem;
+    padding-left: 1rem;
+    font-size: 1rem;
+    color: #e7ebf0;
+    /* align-self: flex-start; */
+}
+
+.admin-users-lower {
+    grid-row: 2/3;
+}
+
+.summary {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem 0rem 2rem;
+}
+
+.desc__lower {
+    font-weight: 300;
+    font-size: 14px;
+    color: gray;
+    text-align: center;
+    padding: 0 .5rem;
+}

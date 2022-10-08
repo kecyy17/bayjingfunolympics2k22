@@ -1,0 +1,15 @@
+.progress-bar-wrapper {
+    padding: 2rem 2rem .5rem 2rem;
+}
+
+.progress-bar-container {
+    height: 8px;
+    border: 1px solid gray;
+    border-radius: .3rem;
+}
+
+.progress-bar {
+    height: 100%;
+    width: 0%;
+    background-color: mediumseagreen;
+}

@@ -1,0 +1,60 @@
+.admin-sidebar-title {
+    font-size: 10px;
+    font-weight: bold;
+    color: #999;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    text-align: start;
+}
+
+.admin-sidebar{
+    padding-left: 10px;
+}
+
+.cst-ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cst-ul li{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.cst-ul li a {
+    width: 100%;
+    text-align: start;
+    display: flex;
+    text-decoration: none;
+}
+
+.cst-ul li a span{
+    color: #b2bac2 ;
+}
+
+.cst-ul li:hover{
+    background-color: rgb(19, 47, 76);
+}
+
+.icon{
+    font-size: 18px;
+    color: rgb(51, 153, 255);
+}
+
+span{
+    font-size: 16px;
+    font-weight: 6000;
+    color: rgb(56, 54, 54);
+    margin-left: 10px;
+}
+
+.active {
+    background-color: rgb(19, 47, 76);
+}
+
+.active a span {
+    color: #66b2ff !important;
+}

@@ -1,0 +1,22 @@
+
+
+.news-promo {
+    width: 100%;
+}
+
+.news-promo >:first-child {
+    width: 100%;
+}
+
+.video-desc-head {
+    padding-bottom: .5rem;
+}
+
+.highlight-news-details {
+    grid-column: 2/3;
+    padding-right: 2rem;
+    /* padding-left: 1.5rem; */
+    min-width: 550px;
+    text-align: justify;
+    color: #b2bac2;
+}

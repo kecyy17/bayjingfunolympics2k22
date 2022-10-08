@@ -1,0 +1,106 @@
+.admin-nav-container{
+    height: 50px;
+    border-bottom: 0.5px solid lightgray;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: gray;
+}
+
+.admin-nav-wrapper{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+/* .search{
+    display: flex;
+    align-items: center;
+    border: 0.5px solid lightgray;
+    padding: 3px;
+} */
+
+/* input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+} */
+
+.admin-nav-bar-items{
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.admin-nav-bar-item{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.icon{
+    font-size: 20px;
+}
+
+.avatar{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.profile-circle {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: 2px solid #bb94d6;
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+.admin-message-box {
+    position: relative;
+    cursor: pointer;
+}
+
+.admin-message-box >:last-child {
+    position: absolute;
+    top: 0;
+    z-index: 400;
+    /* left: 0; */
+    margin-top: 40px;
+    margin-right: -4rem;
+    right: 0;
+}
+
+.hideMsgBox {
+    display: none;
+}
+
+.nav-drop {
+    position: relative;
+}
+
+.drop-wrapper-admin {
+    position: absolute;
+    bottom: 0;
+    z-index: 200;
+    height: 1.5rem;
+    right: 0;
+    top: 3rem;
+}
+
+.show-admin-drop {
+    display: block;
+}
+
+.hide-admin-drop {
+    display: none;
+}
+
+.nav-profile {
+    cursor: pointer;
+}

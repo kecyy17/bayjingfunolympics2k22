@@ -1,0 +1,157 @@
+.cst-widget{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding: 10px;
+    box-shadow: 5px 5px 12px 0px rgba(102, 149, 168, 0.18);
+    -webkit-box-shadow: 5px 5px 12px 0px rgba(102, 149, 168, 0.18);
+    -moz-box-shadow: 5px 5px 12px 0px rgba(102, 149, 168, 0.18);
+    border-radius: 10px;
+    height:100px ;
+    background-color: #132f4c;
+    border: 1px solid #5090d3;
+}
+
+.widget-left, .widget-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;   
+}
+.widget-left > span {
+    color: rgb(178, 186, 194)
+}
+.widget-title{
+    font-weight: bold;
+    font-size: 14px;
+    color: #e7ebf0 !important;
+}
+
+
+.widget-counter{
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.widget-link{
+     font-size: 12px;
+     border-bottom: 1px solid gray;
+     cursor: pointer;
+}
+
+.widget-percentage{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.widget-percentage, .widget-positive{
+    color: green;
+}
+
+.widget-positive.widget-negative{
+    color: red;
+}
+
+.widget-icon{
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 5px;
+    align-self: flex-end;
+}
+
+/* Data grid */
+
+
+.cell-circle {
+    display: flex;
+    border: 1px solid green;
+    padding: .2rem;
+    min-width: 80px;
+    width: 100px;
+    justify-content: center;
+    border-radius: 2rem;
+}
+
+/* DataGrid */
+
+.field-button {
+    display: flex;
+    padding: .3rem .2rem;
+    border: 1px solid rgb(243, 117, 117);
+    border-radius:.5rem;
+    width: fit-content;
+    cursor: pointer;
+    
+}
+
+.field-button-flex {
+    display: flex;
+}
+    
+.field-button-flex >:first-child {
+    margin-right: .5rem;
+}
+
+.field-button >:first-child {
+    padding-right: .2rem;
+    margin-right: .5rem;
+}
+
+.unbanned {
+    background-color: rgb(241, 87, 87);
+    color: white;
+}
+
+.banned {
+    border: 1px solid gray;
+    background-color: rgba(255, 0, 0, 0.274);
+    color: gray;
+    pointer-events: none;
+}
+
+
+.unbanned-green {
+    background-color: rgba(4, 247, 16, 0.822);
+    color: white;
+}
+
+.banned-green {
+    border: 1px solid gray;
+    background-color: rgba(38, 209, 47, 0.822);
+    color: gray;
+    pointer-events: none;
+}
+
+.thumb-img {
+    width: 160px;
+    height: 100px;
+}
+
+
+.thumb-img > img {
+    width: 100%;
+    height: 100%;
+}
+
+.grid-action {
+    display: flex;
+}
+
+.grid-action >:first-child {
+    cursor: pointer;
+    border-right: 3px solid #5090d3;
+    padding: 0rem .5rem;
+}
+
+.grid-action >:first-child:hover {
+    color: #5090d3;
+}
+
+.grid-action >:last-child {
+    cursor: pointer;
+    padding: 0rem .5rem;
+}
+
+.grid-action >:last-child:hover {
+    color: #5090d3;
+}

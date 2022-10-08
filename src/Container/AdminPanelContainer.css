@@ -1,0 +1,66 @@
+.admin-container {
+    display: grid;
+    grid-template-columns: 17.5rem 4fr;
+    background-color: #0A1929;
+    min-height: 100vh;
+}
+
+.admin-panel-sidebar {
+    display: grid;
+    grid-template-rows: 3.2rem 4fr;
+    border-right: .1rem solid gray;
+    max-width: 17.5rem;
+}
+.admin-panel-logo {
+    position: relative;
+    grid-row: 1/2;
+    height: 3.1rem;
+    border-bottom: 1px solid gray;
+}
+
+
+.nav-logo-admin {
+    width: 90px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.3rem;
+}
+
+.nav-logo-admin img {
+    width: 100%;
+    height: 100%;
+}
+
+.custom-border {
+    position: absolute;
+    width: 100%;
+    height: .12rem;
+    background-color: gray;
+    bottom: 0;
+}
+
+.grid-sidebar {
+    grid-row: 2/3;
+}
+
+.admin-components {
+    display: grid;
+    grid-column: 2/3;
+    grid-template-rows: 3.2rem 4fr;
+}
+
+.admin-nav-bar-x {
+    grid-row: 1/2;
+    height: 3.1rem;
+    position: relative;
+}
+
+.admin-dash-container {
+    grid-row: 2/3;
+}
+
+.nav-item {
+    padding: .5rem;
+    display: flex;
+}
