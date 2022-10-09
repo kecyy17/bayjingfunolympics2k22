@@ -16,7 +16,7 @@ export const DropDown = ({userType}) => {
                     userType == "admin"?
                         <div className="profile-items">
                             <GridViewOutlined />
-                            <Link to={`/admin/dashboard`}>Admin Panel</Link>
+                            <Link to={`/admin-panel/dashboard`}>Admin Panel</Link>
                         </div>
                         :
                         ""

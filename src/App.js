@@ -30,24 +30,22 @@ function App() {
               <Route path="/verify" element={<VerifyComponent/>} />
             </Route>
             
-            <Route path="/" element={<LandingContainer/>} />
-            <Route path="/forgot" element={<LandingContainer pageName={"reset"}/>} />
-            <Route path="/news/post/:postID" element={<BayjingHomeContainer component={ <News/> } />}/>
+          
 
             <Route element={<AdminRoute />}>
-              <Route path="/admin/dashboard" element={<AdminPanelContainer component={ <MainDashboard/>} />} />
-              <Route path="/admin/users" element={<AdminPanelContainer component={ <AllUsers/> } />} />
-              <Route path="/admin/highlights" element={<AdminPanelContainer component={ <UploadHighlights /> } />} />
-              <Route path="/admin/highlights/all" element={<AdminPanelContainer component={<AllHighlights docPath={'highlights'} />} /> } />
-              <Route path="/admin/highlights/update/:videoID" element={<AdminPanelContainer component={ <UploadHighlights /> } />} />
-              <Route path="/admin/live" element={<AdminPanelContainer component={ <UploadLive /> } />} />
-              <Route path="/admin/live/all" element={<AdminPanelContainer component={ <AllLives docPath={'lives'} /> } />} />
-              <Route path="/admin/live/update/:videoID" element={<AdminPanelContainer component={ <UploadLive />} />} />
-              <Route path="/admin/news" element={<AdminPanelContainer component={ <UploadNews /> } />} />
-              <Route path="/admin/news/all" element={<AdminPanelContainer component={ <AllNews docPath={'news'} />} />} />
-              <Route path="/admin/news/update/:postID" element={<AdminPanelContainer component={ <UploadNews /> } />} />
-              <Route path="/admin/profile" element={<AdminPanelContainer component={<Profile isDashBoard={true} userType={`Admin`}/>} />} />
-              <Route path="/admin/fixture" element={<AdminPanelContainer component={ <UploadFixture /> } />} />
+              <Route path="/admin-panel/dashboard" element={<AdminPanelContainer component={ <MainDashboard/>} />} />
+              <Route path="/admin-panel/users" element={<AdminPanelContainer component={ <AllUsers/> } />} />
+              <Route path="/admin-panel/highlights" element={<AdminPanelContainer component={ <UploadHighlights /> } />} />
+              <Route path="/admin-panel/highlights/all" element={<AdminPanelContainer component={<AllHighlights docPath={'highlights'} />} /> } />
+              <Route path="/admin-panel/highlights/update/:videoID" element={<AdminPanelContainer component={ <UploadHighlights /> } />} />
+              <Route path="/admin-panel/live" element={<AdminPanelContainer component={ <UploadLive /> } />} />
+              <Route path="/admin-panel/live/all" element={<AdminPanelContainer component={ <AllLives docPath={'lives'} /> } />} />
+              <Route path="/admin-panel/live/update/:videoID" element={<AdminPanelContainer component={ <UploadLive />} />} />
+              <Route path="/admin-panel/news" element={<AdminPanelContainer component={ <UploadNews /> } />} />
+              <Route path="/admin-panel/news/all" element={<AdminPanelContainer component={ <AllNews docPath={'news'} />} />} />
+              <Route path="/admin-panel/news/update/:postID" element={<AdminPanelContainer component={ <UploadNews /> } />} />
+              <Route path="/admin-panel/profile" element={<AdminPanelContainer component={<Profile isDashBoard={true} userType={`Admin`}/>} />} />
+              <Route path="/admin-panel/fixture" element={<AdminPanelContainer component={ <UploadFixture /> } />} />
             </Route>
 
             
@@ -65,7 +63,9 @@ function App() {
               <Route path="/reset" element={<BayjingHomeContainer component={ <ChangePassword/> } />}/>  
               <Route path="/contact" element={<BayjingHomeContainer component={ <ContactUs/> } />}/>  
             </Route>
-
+            <Route path="/" element={<LandingContainer/>} />
+            <Route path="/forgot" element={<LandingContainer pageName={"reset"}/>} />
+            <Route path="/news/post/:postID" element={<BayjingHomeContainer component={ <News/> } />}/>
           </Routes>
         </Router>
       </AuthContextProvider>

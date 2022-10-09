@@ -9,33 +9,33 @@ export const Sidebar = () => {
             <div className="admin-sidebar">
                 <ul className="cst-ul">
                     <p className='admin-sidebar-title'>Main</p>
-                    <CustomLink to="/admin/dashboard">
+                    <CustomLink to="/admin-panel/dashboard">
                         <GridViewOutlined className='icon'/>
                         <span>Dashboard</span>
                     </CustomLink>
-                    <CustomLink to="/admin/users">
+                    <CustomLink to="/admin-panel/users">
                         <GroupAddOutlined className='icon'/>
                         <span>User List</span>
                     </CustomLink>
 
                     <p className='admin-sidebar-title'>Upload</p>
 
-                    <CustomLink to="/admin/live">
+                    <CustomLink to="/admin-panel/live">
                         <BroadcastOnHomeOutlined className='icon'/>
                         <span>Lives</span>
                     </CustomLink>
 
-                    <CustomLink to="/admin/highlights">
+                    <CustomLink to="/admin-panel/highlights">
                         <VideoLibraryOutlined className='icon'/>
                         <span>Highlights</span>
                     </CustomLink>
 
-                    <CustomLink to="/admin/news">
+                    <CustomLink to="/admin-panel/news">
                         <FeedOutlined className='icon'/>
                         <span>News</span>
                     </CustomLink>
 
-                    <CustomLink to="/admin/fixture">
+                    <CustomLink to="/admin-panel/fixture">
                         <CalendarTodayOutlined className='icon'/>
                         <span>Fixtures</span>
                     </CustomLink>

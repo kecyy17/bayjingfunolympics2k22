@@ -321,7 +321,7 @@ export const UploadLive = ({className, videoData}) => {
                                             <p>{uploadFile}</p>
                                             {
                                                 params.videoID || uploadFileObject.current ? 
-                                                    <label className='vid-upload-file-info' htmlFor="uploadFileInfo" onClick={()=> NavigateToPage(`/admin/live/all`)}>
+                                                    <label className='vid-upload-file-info' htmlFor="uploadFileInfo" onClick={()=> NavigateToPage(`/admin-panel/live/all`)}>
                                                         {/* <input name="" type="file" id="uploadFileInfo" accept='video/*' hidden /> */}
                                                         Back
                                                     </label>

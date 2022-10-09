@@ -11,7 +11,7 @@ export const AdminDropDown = ({userType}) => {
                 </div>
                 <div className="profile-items">
                     <AccountBoxOutlined />
-                    <Link to={`/admin/profile`}>Profile</Link>
+                    <Link to={`/admin-panel/profile`}>Profile</Link>
                 </div>
                 <div className="profile-items">
                     <KeyOutlined />

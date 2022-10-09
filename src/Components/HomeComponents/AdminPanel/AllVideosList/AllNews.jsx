@@ -56,7 +56,7 @@ export const AllNews = ({docPath}) => {
     }
 
     const HandleEdit = (postID) => {
-        NavigateToPage(`/admin/news/update/${postID}`)
+        NavigateToPage(`/admin-panel/news/update/${postID}`)
     }
 
     const HandleDelete = () => {

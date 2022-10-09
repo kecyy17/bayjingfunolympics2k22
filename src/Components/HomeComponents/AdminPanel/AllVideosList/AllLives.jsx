@@ -53,7 +53,7 @@ export const AllLives = ({docPath}) => {
     }
 
     const HandleEdit = (videoID) => {
-        NavigateToPage(`/admin/live/update/${videoID}`)
+        NavigateToPage(`/admin-panel/live/update/${videoID}`)
     }
 
     const HandleDelete = () => {

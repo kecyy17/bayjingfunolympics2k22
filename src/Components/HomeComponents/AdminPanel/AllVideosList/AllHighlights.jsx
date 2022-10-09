@@ -53,7 +53,7 @@ export const AllHighlights = ({docPath}) => {
     }
 
     const HandleEdit = (videoID) => {
-        NavigateToPage(`/admin/${docPath}/update/${videoID}`)
+        NavigateToPage(`/admin-panel/${docPath}/update/${videoID}`)
     }
 
     const HandleDelete = async(videoID) => {
